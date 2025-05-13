@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.81ed1362.css",
-    "main.js": "/static/js/main.692f0a45.js",
-    "static/js/453.5f064afe.chunk.js": "/static/js/453.5f064afe.chunk.js",
+    "main.css": "/static/css/main.42e747ad.css",
+    "main.js": "/static/js/main.e2260952.js",
+    "static/js/453.328d1bee.chunk.js": "/static/js/453.328d1bee.chunk.js",
     "static/media/main.PNG": "/static/media/main.c88839cf260886642906.PNG",
     "static/media/logo.png": "/static/media/logo.192993f681ebdb6dbd9f.png",
-    "static/media/cursor.cur": "/static/media/cursor.65fda9449c5fe4d2ac4e.cur",
+    "static/media/kickeat.png": "/static/media/kickeat.72b434968127ecaf3542.png",
+    "static/media/mimyo.jpg": "/static/media/mimyo.df2b3b0a043a8601adb4.jpg",
+    "static/media/github.png": "/static/media/github.89a39afcaf8eb778d8af.png",
+    "static/media/cursor.cur": "/static/media/cursor.072be9b91f546cb22ce4.cur",
+    "static/media/cursor_pointer.cur": "/static/media/cursor_pointer.bf028a329c2b01187bce.cur",
     "index.html": "/index.html",
-    "main.81ed1362.css.map": "/static/css/main.81ed1362.css.map",
-    "main.692f0a45.js.map": "/static/js/main.692f0a45.js.map",
-    "453.5f064afe.chunk.js.map": "/static/js/453.5f064afe.chunk.js.map"
+    "main.42e747ad.css.map": "/static/css/main.42e747ad.css.map",
+    "main.e2260952.js.map": "/static/js/main.e2260952.js.map",
+    "453.328d1bee.chunk.js.map": "/static/js/453.328d1bee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81ed1362.css",
-    "static/js/main.692f0a45.js"
+    "static/css/main.42e747ad.css",
+    "static/js/main.e2260952.js"
   ]
 }
