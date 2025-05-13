@@ -1,4 +1,4 @@
-function Main() {
+function Home() {
     return (
         <div className="home-container">
             <div>home</div>
@@ -6,4 +6,4 @@ function Main() {
     )
 }
 
-export default Main;
+export default Home;
