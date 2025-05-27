@@ -18,7 +18,8 @@ body {
 .header-container {
     position: fixed;
     width: 100%;
-    min-width: 1200px;
+    height: 100vh;
+    overflow-y: scroll;
     z-index: 999;
     font-family: "Cascadia Mono";
 }
@@ -31,6 +32,7 @@ body {
 }
 
 .header-nav {
+    min-width: 900px;
     height: 120px;
     padding-left: 30px;
 }
@@ -90,6 +92,7 @@ body {
 .main-container {
     position: relative;
     width: 100%;
+    min-width: 900px;
     text-align: center;
     background: no-repeat;
 }

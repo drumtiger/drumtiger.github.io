@@ -1,3 +1,7 @@
+.guestbook-container {
+    min-width: 900px;
+}
+
 .guestbook-list, .guestbook-list li {
     list-style-type: none;
     margin: 0;
@@ -6,7 +10,7 @@
 
 .guestbook-list {
     width: 700px;
-    height: 500px;
+    height: 450px;
     margin: 20px auto;
     padding: 20px;
     border: 2px solid #acf;
@@ -32,7 +36,16 @@
     color: #aaa;
 }
 
+#delete-btn {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    cursor: url('/src/css/cursor_pointer.cur'), auto;
+}
+
 .guestbook-form {
+    display: flex;
+    justify-content: space-between;
     width: 700px;
     margin: 0 auto;
     padding: 20px;
@@ -40,15 +53,16 @@
 }
 
 #writer, #pwd, #content {
-    width: 228px;
+    width: 258px;
     margin: 3px 0;
     padding: 10px;
     border: 2px solid #eee;
+    cursor: url('/src/css/cursor_text.cur'), auto;
 }
 
 #content {
     resize: none;
-    width: 480px;
+    width: 540px;
 }
 
 #writer::placeholder, #pwd::placeholder, #content::placeholder {
@@ -58,5 +72,7 @@
 
 #guestbook-enter-btn {
     width: 100px;
-    height: 50px;
+    height: 60px;
+    align-self: center;
+    cursor: url('/src/css/cursor_pointer.cur'), auto;
 }

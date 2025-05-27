@@ -68,6 +68,10 @@ function GuestBook() {
         minute: '2-digit',
         hour12: true, // 12시간 형식으로 표시
     }
+
+    const deleteGuestbook = (item)=>{
+        console.log(item);
+    }
     
     return (
         <div className="guestbook-container">
@@ -76,6 +80,7 @@ function GuestBook() {
                     <li key={item.id}>
                         <span>{item.writer}: {item.content}</span>
                         <span id="write-date">{item.createdAt.toDate().toLocaleString('en-US', dateOptions)}</span>
+                        <span id='delete-btn' onClick={()=>deleteGuestbook(item)}>x</span>
                     </li>
                 ))}
             </ul>
